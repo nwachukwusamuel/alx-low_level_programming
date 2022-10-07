@@ -63,12 +63,12 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 	return (dest);
 }
 /**
- * check_for_digits - checks the argument to ensure they are digits
+ * is_digits - checks the argument to ensure they are digits
  * @av: pointer to arguments
  *
  * Return: 0 if digit, and 1 if not
  */
-int check_for_digits(char **av)
+int is_digits(char **av)
 {
 	int i, j;
 
